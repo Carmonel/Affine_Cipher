@@ -123,6 +123,33 @@ Affin_Cipher_New/fast:
 	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/build
 .PHONY : Affin_Cipher_New/fast
 
+Affin_Cipher.o: Affin_Cipher.cpp.o
+
+.PHONY : Affin_Cipher.o
+
+# target to build an object file
+Affin_Cipher.cpp.o:
+	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.o
+.PHONY : Affin_Cipher.cpp.o
+
+Affin_Cipher.i: Affin_Cipher.cpp.i
+
+.PHONY : Affin_Cipher.i
+
+# target to preprocess a source file
+Affin_Cipher.cpp.i:
+	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.i
+.PHONY : Affin_Cipher.cpp.i
+
+Affin_Cipher.s: Affin_Cipher.cpp.s
+
+.PHONY : Affin_Cipher.s
+
+# target to generate assembly for a file
+Affin_Cipher.cpp.s:
+	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.s
+.PHONY : Affin_Cipher.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Affin_Cipher_New"
+	@echo "... Affin_Cipher.o"
+	@echo "... Affin_Cipher.i"
+	@echo "... Affin_Cipher.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
