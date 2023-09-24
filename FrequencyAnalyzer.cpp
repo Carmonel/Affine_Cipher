@@ -146,27 +146,32 @@ void FrequencyAnalyzer::analyzeFromEngTable() {
     alphabet[23] = new Pair('X', 0.0015);
     alphabet[24] = new Pair('Y', 0.0197);
     alphabet[25] = new Pair('Z', 0.0007);
+    bool letterFound[256] = {false};
 
     std::cout << std::endl << std::endl << "Frequency analyzing from english alphabet:" << std::endl;
     debugFile << std::endl << std::endl << "Frequency analyzing from english alphabet:" << std::endl;
 
     for (int i = 0; i < 26; i++){
         double minDiff = 10000;
+        int pos = 0;
 
         // Find minimum difference
-        for (int j = 0; j < 256; j++){
-            if (std::abs(alphabet[i]->freq - (double)((double)inputFileTable[j]/sumFromInputTable)) < minDiff)
-                                            minDiff = std::abs(alphabet[i]->freq - (double)((double)inputFileTable[j]/sumFromInputTable));
+        for (int j = 0; j < 256; j++) {
+            if (letterFound[j]) continue;
+            double diff = std::abs(alphabet[i]->freq - (double)((double)inputFileTable[j] / sumFromInputTable));
+            if (diff < minDiff) {
+                minDiff = diff;
+                pos = j;
+            }
         }
-        int pos = 0;
-        while (std::abs(alphabet[i]->freq - inputFileTable[pos]) != minDiff) pos++;
 
 
         std::ostringstream ss;
         ss << "'" << alphabet[i]->letter << "' = " << std::hex << std::uppercase << pos << " -> " << alphabet[i]->freq << "(alphabet) = "
-                                                        << std::dec << (double)(inputFileTable[pos]/sumFromInputTable) << "(input file)" << std::endl;
+                                                        << std::dec << (double)((double)inputFileTable[pos] / sumFromInputTable) << "(input file)" << std::endl;
         std::cout << ss.str();
         debugFile << ss.str();
+        letterFound[pos] = true;
     }
     for (int i = 0; i < 26; i++) delete alphabet[i];
 }

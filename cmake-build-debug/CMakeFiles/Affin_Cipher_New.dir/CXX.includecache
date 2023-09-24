@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/AffineCipher.h
+iostream
+-
+fstream
+-
+
 /cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/FrequencyAnalyzer.cpp
 fstream
 -
@@ -19,4 +25,12 @@ string
 -
 iostream
 -
+
+/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/main.cpp
+AffineCipher.h
+/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/AffineCipher.h
+string
+-
+FrequencyAnalyzer.h
+/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/FrequencyAnalyzer.h
 
