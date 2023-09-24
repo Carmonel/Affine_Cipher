@@ -123,32 +123,59 @@ Affin_Cipher_New/fast:
 	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/build
 .PHONY : Affin_Cipher_New/fast
 
-Affine_Cipher.o: Affine_Cipher.cpp.o
+AffineCipher.o: AffineCipher.cpp.o
 
-.PHONY : Affine_Cipher.o
+.PHONY : AffineCipher.o
 
 # target to build an object file
-Affine_Cipher.cpp.o:
-	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.o
-.PHONY : Affine_Cipher.cpp.o
+AffineCipher.cpp.o:
+	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/AffineCipher.cpp.o
+.PHONY : AffineCipher.cpp.o
 
-Affine_Cipher.i: Affine_Cipher.cpp.i
+AffineCipher.i: AffineCipher.cpp.i
 
-.PHONY : Affine_Cipher.i
+.PHONY : AffineCipher.i
 
 # target to preprocess a source file
-Affine_Cipher.cpp.i:
-	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.i
-.PHONY : Affine_Cipher.cpp.i
+AffineCipher.cpp.i:
+	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/AffineCipher.cpp.i
+.PHONY : AffineCipher.cpp.i
 
-Affine_Cipher.s: Affine_Cipher.cpp.s
+AffineCipher.s: AffineCipher.cpp.s
 
-.PHONY : Affine_Cipher.s
+.PHONY : AffineCipher.s
 
 # target to generate assembly for a file
-Affine_Cipher.cpp.s:
-	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.s
-.PHONY : Affine_Cipher.cpp.s
+AffineCipher.cpp.s:
+	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/AffineCipher.cpp.s
+.PHONY : AffineCipher.cpp.s
+
+FrequencyAnalyzer.o: FrequencyAnalyzer.cpp.o
+
+.PHONY : FrequencyAnalyzer.o
+
+# target to build an object file
+FrequencyAnalyzer.cpp.o:
+	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/FrequencyAnalyzer.cpp.o
+.PHONY : FrequencyAnalyzer.cpp.o
+
+FrequencyAnalyzer.i: FrequencyAnalyzer.cpp.i
+
+.PHONY : FrequencyAnalyzer.i
+
+# target to preprocess a source file
+FrequencyAnalyzer.cpp.i:
+	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/FrequencyAnalyzer.cpp.i
+.PHONY : FrequencyAnalyzer.cpp.i
+
+FrequencyAnalyzer.s: FrequencyAnalyzer.cpp.s
+
+.PHONY : FrequencyAnalyzer.s
+
+# target to generate assembly for a file
+FrequencyAnalyzer.cpp.s:
+	$(MAKE) -f CMakeFiles/Affin_Cipher_New.dir/build.make CMakeFiles/Affin_Cipher_New.dir/FrequencyAnalyzer.cpp.s
+.PHONY : FrequencyAnalyzer.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Affin_Cipher_New"
-	@echo "... Affine_Cipher.o"
-	@echo "... Affine_Cipher.i"
-	@echo "... Affine_Cipher.s"
+	@echo "... AffineCipher.o"
+	@echo "... AffineCipher.i"
+	@echo "... AffineCipher.s"
+	@echo "... FrequencyAnalyzer.o"
+	@echo "... FrequencyAnalyzer.i"
+	@echo "... FrequencyAnalyzer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

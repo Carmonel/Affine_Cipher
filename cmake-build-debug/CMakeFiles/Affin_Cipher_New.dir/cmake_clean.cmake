@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "Affin_Cipher_New.exe"
   "Affin_Cipher_New.pdb"
-  "CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.o"
+  "CMakeFiles/Affin_Cipher_New.dir/AffineCipher.cpp.o"
+  "CMakeFiles/Affin_Cipher_New.dir/FrequencyAnalyzer.cpp.o"
   "CMakeFiles/Affin_Cipher_New.dir/main.cpp.o"
   "libAffin_Cipher_New.dll.a"
 )

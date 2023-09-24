@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affine_Cipher.cpp" "/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/cmake-build-debug/CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.o"
+  "/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/AffineCipher.cpp" "/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/cmake-build-debug/CMakeFiles/Affin_Cipher_New.dir/AffineCipher.cpp.o"
+  "/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/FrequencyAnalyzer.cpp" "/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/cmake-build-debug/CMakeFiles/Affin_Cipher_New.dir/FrequencyAnalyzer.cpp.o"
   "/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/main.cpp" "/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/cmake-build-debug/CMakeFiles/Affin_Cipher_New.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
