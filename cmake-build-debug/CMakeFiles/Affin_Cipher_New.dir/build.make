@@ -70,29 +70,29 @@ CMakeFiles/Affin_Cipher_New.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Affin_Cipher_New.dir/main.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/main.cpp -o CMakeFiles/Affin_Cipher_New.dir/main.cpp.s
 
-CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.o: CMakeFiles/Affin_Cipher_New.dir/flags.make
-CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.o: ../Affin_Cipher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.o -c /cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affin_Cipher.cpp
+CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.o: CMakeFiles/Affin_Cipher_New.dir/flags.make
+CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.o: ../Affine_Cipher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.o -c /cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affine_Cipher.cpp
 
-CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affin_Cipher.cpp > CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.i
+CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affine_Cipher.cpp > CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.i
 
-CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affin_Cipher.cpp -o CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.s
+CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affine_Cipher.cpp -o CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.s
 
 # Object files for target Affin_Cipher_New
 Affin_Cipher_New_OBJECTS = \
 "CMakeFiles/Affin_Cipher_New.dir/main.cpp.o" \
-"CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.o"
+"CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.o"
 
 # External object files for target Affin_Cipher_New
 Affin_Cipher_New_EXTERNAL_OBJECTS =
 
 Affin_Cipher_New.exe: CMakeFiles/Affin_Cipher_New.dir/main.cpp.o
-Affin_Cipher_New.exe: CMakeFiles/Affin_Cipher_New.dir/Affin_Cipher.cpp.o
+Affin_Cipher_New.exe: CMakeFiles/Affin_Cipher_New.dir/Affine_Cipher.cpp.o
 Affin_Cipher_New.exe: CMakeFiles/Affin_Cipher_New.dir/build.make
 Affin_Cipher_New.exe: CMakeFiles/Affin_Cipher_New.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Affin_Cipher_New.exe"

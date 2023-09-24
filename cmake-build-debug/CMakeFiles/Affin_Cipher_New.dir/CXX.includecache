@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/main.cpp
+/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affine_Cipher.h
 iostream
 -
 fstream
 -
+
+/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/main.cpp
+Affine_Cipher.h
+/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affine_Cipher.h
+string
+/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/string
 

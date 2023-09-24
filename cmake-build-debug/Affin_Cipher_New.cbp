@@ -80,10 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affin_Cipher.cpp">
+		<Unit filename="/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affine_Cipher.cpp">
 			<Option target="Affin_Cipher_New"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affin_Cipher.h">
+		<Unit filename="/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/Affine_Cipher.h">
 			<Option target="Affin_Cipher_New"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Ярослав/CLionProjects/Affin_Cipher_New/main.cpp">
